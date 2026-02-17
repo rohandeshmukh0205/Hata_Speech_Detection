@@ -4,7 +4,7 @@ from sentence_transformers import SentenceTransformer
 from sklearn.svm import OneClassSVM
 import joblib
 
-# Load dataset
+
 data = pd.read_csv("data/labeled_data.csv")
 
 # Keep only normal sentences (class == 2)
