@@ -32,7 +32,7 @@ for p in predictions:
     else:
         pred_labels.append(0)  
 
-# Convert true labels to binary
+# Convert true labels to binary..
 binary_true = []
 for t in true_labels:
     if t == 2:

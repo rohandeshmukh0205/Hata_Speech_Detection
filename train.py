@@ -13,7 +13,7 @@ normal_sentences = normal_data['tweet'].tolist()
 
 print("Normal samples:", len(normal_sentences))
 
-# Load Sentence Embedding model
+# Load Sentence Embedding model..
 embedder = SentenceTransformer('all-MiniLM-L6-v2')
 
 # Convert sentences to embeddings
