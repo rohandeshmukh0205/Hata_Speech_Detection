@@ -28,9 +28,9 @@ predictions = ocsvm.predict(X_test)
 pred_labels = []
 for p in predictions:
     if p == 1:
-        pred_labels.append(2)  # normal
+        pred_labels.append(2)  
     else:
-        pred_labels.append(0)  # anomaly (hate/offensive)
+        pred_labels.append(0)  
 
 # Convert true labels to binary
 binary_true = []
